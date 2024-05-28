@@ -15,8 +15,8 @@ Autores:
 |B17326|Jun Hyun Yeom Song|
 |C33566|Danny Gutiérrez Campos|
 |C37259|Rodrigo Sánchez Araya|
-|||
+|C31824|Sergio Castillo Víquez|
 
 Bienvenidos al repositorio!
 
-Aquí encontrarán el proyecto elaborado para el curso de Programación IE-0117, semestre I-2024.
+Aquí encontrarán el proyecto en C elaborado para el curso de Programación IE-0117, semestre I-2024.
