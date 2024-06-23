@@ -47,13 +47,13 @@ https://github.com/raysan5/raylib/blob/master/examples/text/text_input_box.c
 https://ucd-dnp.github.io/ConTexto/versiones/master/instalacion/instalacion_popple_teseract_linux.html
 ~~~
 
-*Una vez instalado, para verificar su correcta descarga ejecute el siguiente comando:
+* Una vez instalado, para verificar su correcta descarga ejecute el siguiente comando:
 
 ~~~
 dpkg -l | grep poppler-utils
 ~~~
 
-*Si poppler-utils está instalado, deberías ver una línea similar a la siguiente en la salida:
+* Si poppler-utils está instalado, deberías ver una línea similar a la siguiente en la salida:
 
 ~~~
 ii  poppler-utils   0.86.1-0ubuntu1   amd64   PDF utilities (based on Poppler)
