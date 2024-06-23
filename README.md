@@ -41,7 +41,7 @@ cc nombre_del_archivo.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 https://github.com/raysan5/raylib/blob/master/examples/text/text_input_box.c
 ~~~
 
-* Instale la libreria poppler en su computadora con base en el siguiente link, tome en cuenta solamente la parte que indica la instalción de Poppler (2.1.1 en caso de Linux) (2.2.1 en caso de Windows):
+* Instale la libreria poppler en su computadora con base en el siguiente link, tome en cuenta solamente la parte que indica la instalación de Poppler (2.1.1 en caso de Linux) (2.2.1 en caso de Windows):
 
 ~~~
 https://ucd-dnp.github.io/ConTexto/versiones/master/instalacion/instalacion_popple_teseract_linux.html
