@@ -10,6 +10,6 @@ void searchPhrase(char * frase, char * direccion, char * resultado1, char * resu
     {
         strncpy(resultado1, "Este es el resultado 1", MAX_OUTPUT_CHARS);
         strncpy(resultado2, "Este es el resultado 2", MAX_OUTPUT_CHARS);
-        * resultado3 = 55;
+        *resultado3 = 4;
     }
 }

@@ -37,7 +37,7 @@ void printResults(char * resultado1, char * resultado2, int * resultado3)
 
             DrawText(TextFormat("Resultado 2: %s", resultado2), 200, 160, 20, BLUE);
 
-            DrawText(TextFormat("Resultado 3: %d", resultado3), 200, 160, 20, BLUE);
+            DrawText(TextFormat("Resultado 3: %d", resultado3), 200, 200, 20, BLUE);
 
         EndDrawing();
         //----------------------------------------------------------------------------------
