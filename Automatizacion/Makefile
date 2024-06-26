@@ -7,10 +7,10 @@ OBJS = $(SRCS:.c=.o)
 all: main
 
 main: $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $@
+	$(CC) $(OBJS) $(CFLAGS) -o $@
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) -c $< $(CFLAGS) -o $@
 
 clean:
 	@rm -f main $(OBJS)
