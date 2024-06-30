@@ -152,3 +152,25 @@ int main() {
 
     return 0;
 }
+
+
+/*
+Este código en C está diseñado para buscar una frase específica dentro de un texto extraído de un archivo. 
+El código originalmente espera recibir la frase a buscar y el contenido del archivo de texto a través de punteros provenientes de otro código relacionado al proyecto.
+Por ende, en este caso se le agregaron ciertas funciones para comprobar su correcta funcionalidad
+
+Funciones agregadas: 
+    1) read_file_to_string: 
+    Tiene como objetivo analizar el archivo de texto ingresado en main.
+    Se puede decir que "convierte el texto en un puntero" en el sentido de que lee el contenido del archivo de texto y devuelve un puntero (char*) que apunta a una cadena que contiene ese texto en memoria dinámica. 
+    Dicho puntero se puede usar posteriormente en el programa para acceder y manipular el contenido del archivo.
+    
+    
+    2) main
+    Su funcionalidad radica en que define una frase y el nombre de un archivo de texto. 
+    Luego llama a searchPhrase pasándoles estos valores, searchPhrase espera recibir estos valores como punteros (char*).
+
+Agregar estas funciones fue necesario para poder recrear una frase y un archivo en el cual buscar dicha frase.
+
+*/
+
