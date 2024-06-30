@@ -8,8 +8,8 @@ void searchPhrase(char * frase, char * direccion, char * resultado1, char * resu
 {
     if(frase!=NULL && direccion!=NULL)
     {
-        strncpy(resultado1, "Este es el resultado 1", MAX_OUTPUT_CHARS);
-        strncpy(resultado2, "Este es el resultado 2", MAX_OUTPUT_CHARS);
-        *resultado3 = 4;
+        strncpy(resultado1, "Nombre del archivo", MAX_OUTPUT_CHARS);
+        strncpy(resultado2, "Oracion que contiene a la frase", MAX_OUTPUT_CHARS);
+        *resultado3 = 25;
     }
 }
