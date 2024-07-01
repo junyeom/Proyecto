@@ -14,7 +14,7 @@ void printResults()
     char filename[] = "results.txt";
     FILE *file = fopen(filename, "r");
 
-    char lines[MAX_LINES][256];
+    char lines[MAX_LINES][80];
     int numberOfLines = 0;
 
     while (fgets(lines[numberOfLines], sizeof(lines[0]), file) && numberOfLines < MAX_LINES){
