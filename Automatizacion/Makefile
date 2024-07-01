@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
-SRCS = getPhraseAndAddress.c searchPhrase.c printResults.c main.c
+SRCS = getPhraseAndAddress.c printResults.c main.c
 OBJS = $(SRCS:.c=.o)
 
 all: main
