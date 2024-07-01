@@ -24,8 +24,8 @@ void getPhraseAndAddress(char * phrasePointer, char * addressPointer)
 
     // Creación de los rectángulos en donde el usuario ingresa la frase y la dirección
 
-    Rectangle phraseBox = { screenWidth/3.0f - 300, 180, 800, 50 };
-    Rectangle addressBox = { screenWidth/3.0f - 300, 360, 800, 50 };
+    Rectangle phraseBox = { screenWidth/3.0f - 300, 180, 950, 50 };
+    Rectangle addressBox = { screenWidth/3.0f - 300, 360, 950, 50 };
 
     bool mouseOnText = false;
 
@@ -125,7 +125,7 @@ void getPhraseAndAddress(char * phrasePointer, char * addressPointer)
 
             DrawRectangleRec(phraseBox, LIGHTGRAY);
 
-            DrawText(phrase, (int)phraseBox.x + 5, (int)phraseBox.y + 8, 16, MAROON);
+            DrawText(phrase, (int)phraseBox.x + 5, (int)phraseBox.y + 8, 20, MAROON);
 
             DrawText(TextFormat("Frase: %i/%i", phraseCount, MAX_INPUT_CHARS), 315, 235, 20, GRAY);
 
@@ -133,7 +133,7 @@ void getPhraseAndAddress(char * phrasePointer, char * addressPointer)
 
             DrawRectangleRec(addressBox, LIGHTGRAY);
 
-            DrawText(address, (int)addressBox.x + 5, (int)addressBox.y + 8, 16, MAROON);
+            DrawText(address, (int)addressBox.x + 5, (int)addressBox.y + 8, 20, MAROON);
 
             DrawText(TextFormat("Dirección: %i/%i", addressCount, MAX_INPUT_CHARS), 315, 415, 20, GRAY);
 

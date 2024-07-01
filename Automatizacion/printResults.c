@@ -6,8 +6,8 @@
 
 void printResults()
 {
-    const int screenWidth = 800;
-    const int screenHeight = 450;
+    const int screenWidth = 1000;
+    const int screenHeight = 600;
 
     InitWindow(screenWidth, screenHeight, "Print Results");
 
@@ -46,7 +46,7 @@ void printResults()
             for (int i = 0; i<numberOfLines; i++){
                 int y = 50 + i * lineHeight - scrollOffset;
                 if (y >= 50 && y < screenHeight){
-                    DrawText(lines[i], 50, y, 16, BLACK);
+                    DrawText(lines[i], 50, y, 20, BLACK);
                 }
             }
 
