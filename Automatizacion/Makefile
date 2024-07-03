@@ -1,7 +1,7 @@
 CC = gcc
-CFLAGS = -Wall -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+CFLAGS = -Wall -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 $(shell pkg-config --cflags --libs poppler-glib)
 
-SRCS = getPhraseAndAddress.c printResults.c main.c
+SRCS = getPhraseAndAddress.c algoritmoTrejos.c printResults.c main.c
 OBJS = $(SRCS:.c=.o)
 
 all: main

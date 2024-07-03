@@ -11,6 +11,8 @@ int main ()
     char addressPointer[MAX_INPUT_CHARS];
     getPhraseAndAddress(phrasePointer, addressPointer);
     
+    algoritmoTrejos(phrasePointer, addressPointer);
+
     printResults();
     return 0;
 }

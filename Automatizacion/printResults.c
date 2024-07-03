@@ -11,7 +11,7 @@ void printResults()
 
     InitWindow(screenWidth, screenHeight, "Print Results");
 
-    char filename[] = "results.txt";
+    char filename[] = "Final.txt";
     FILE *file = fopen(filename, "r");
 
     char lines[MAX_LINES][80];
