@@ -138,39 +138,9 @@ void process_directory(const char *dir_path, const char *phrase, const char *out
     closedir(dir);
 }
 
-int main() {
-    char dir_path[1024];
-    char phrase[1024];
-    char output_filename[1024];
-
-    // Solicitar al usuario la ruta del directorio
-    printf("Ingrese la ruta del directorio: ");
-    if (fgets(dir_path, sizeof(dir_path), stdin) == NULL) {
-        fprintf(stderr, "Error al leer la ruta del directorio\n");
-        return 1;
-    }
-    dir_path[strcspn(dir_path, "\n")] = '\0'; // Eliminar el salto de línea
-
-    // Solicitar al usuario la frase a buscar
-    printf("Ingrese la frase a buscar: ");
-    if (fgets(phrase, sizeof(phrase), stdin) == NULL) {
-        fprintf(stderr, "Error al leer la frase\n");
-        return 1;
-    }
-    phrase[strcspn(phrase, "\n")] = '\0'; // Eliminar el salto de línea
-
-    // Solicitar al usuario el nombre del archivo de salida
-    printf("Ingrese el nombre del archivo de salida: ");
-    if (fgets(output_filename, sizeof(output_filename), stdin) == NULL) {
-        fprintf(stderr, "Error al leer el nombre del archivo de salida\n");
-        return 1;
-    }
-    output_filename[strcspn(output_filename, "\n")] = '\0'; // Eliminar el salto de línea
-
+int AlgoritmoTrejos(char*phrasePointer, char*addressPointer) {
+    const char *output_filename = "Final.txt";
     // Procesar el directorio y buscar la frase en los archivos PDF
-    process_directory(dir_path, phrase, output_filename);
-
-    printf("Búsqueda completada. Los resultados se han guardado en %s\n", output_filename);
-
+    process_directory(phrasePointer, addressPointer, output_filename);
     return 0;
 }
