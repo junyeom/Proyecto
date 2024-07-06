@@ -21,6 +21,9 @@ Bienvenidos al repositorio!
 
 Aquí encontrarán el proyecto en C elaborado para el curso de Programación IE-0117, semestre I-2024.
 
+## Introducción
+El proyecto se fundamenta en un algoritmo que permite buscar frases en archivos PDF sin distinguir entre variaciones, mediante una interfaz los usuarios pueden introducir la frase que desean buscar de forma intuitiva, una vez que el usuario ha especificado la frase y seleccionado el conjunto de archivos PDF, el programa se encarga de buscar la frase en todos los documentos, ignorando las diferencias entre mayúsculas, minúsculas y tildes. Los resultados se presentan de manera clara y accesible en una ventana que se abrira con todos los datos, permitiendo al usuario revisar rápidamente las coincidencias encontradas.
+
 ## Instrucciones para el usuario
 
 ### raylib
