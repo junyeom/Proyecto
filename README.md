@@ -23,13 +23,15 @@ Aquí encontrarán el proyecto en C elaborado para el curso de Programación IE-
 
 ## Instrucciones para el usuario
 
-* Instale la librería raylib en su computadora siguiendo las instrucciones en:
+### raylib
+
+* Instale la librería raylib en su computadora siguiendo las instrucciones según su distro:
 
 ~~~
 https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux
 ~~~
 
-* Una vez instalado, para compilar el código ejecute el siguiente comando:
+* Una vez instalado, para compilar un código que utilice esta librería, debe ejecutar el siguiente comando:
 
 ~~~
 cc nombre_del_archivo.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
@@ -41,22 +43,17 @@ cc nombre_del_archivo.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 https://github.com/raysan5/raylib/blob/master/examples/text/text_input_box.c
 ~~~
 
-* Instale la libreria poppler en su computadora con base en el siguiente link, tome en cuenta solamente la parte que indica la instalación de Poppler (2.1.1 en caso de Linux) (2.2.1 en caso de Windows):
+### poppler y glib
+
+* Ejecute el siguiente comando en la terminal para instalar las librerías:
 
 ~~~
-https://ucd-dnp.github.io/ConTexto/versiones/master/instalacion/instalacion_popple_teseract_linux.html
+sudo apt-get install libglib2.0-dev libpoppler-glib-dev
 ~~~
 
-* Una vez instalado, para verificar su correcta descarga ejecute el siguiente comando:
+* Ejecute el siguiente comando en la terminal para verificar su correcta instalación:
 
 ~~~
-dpkg -l | grep poppler-utils
+dpkg -l | grep libpoppler-glib-dev
+dpkg -l | grep libglib2.0-dev
 ~~~
-
-* Si poppler-utils está instalado, deberías ver una línea similar a la siguiente en la salida:
-
-~~~
-ii  poppler-utils   0.86.1-0ubuntu1   amd64   PDF utilities (based on Poppler)
-~~~
-
-
