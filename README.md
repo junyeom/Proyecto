@@ -57,3 +57,13 @@ sudo apt-get install libglib2.0-dev libpoppler-glib-dev
 dpkg -l | grep libpoppler-glib-dev
 dpkg -l | grep libglib2.0-dev
 ~~~
+
+### Makefile
+
+* Descargue el folder **Automatizacion**
+
+* Ejecute en la terminal el comando *make*
+
+* Ejecute el binario
+
+* Siga las instrucciones de la interfaz gráfica
